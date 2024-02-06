@@ -4,6 +4,8 @@ $main-bgcolor: #f8ebe3fd;
 $footer-bgcolor:#ffab73;
 
 
+$para-fontsize: 16px;
+
 /* browser reset code */
 
 *{
@@ -19,7 +21,9 @@ header{
 main{
     background: $main-bgcolor;
 }
-
+#about p{
+    font-size: $para-fontsize;
+}
 footer{
     background: $footer-bgcolor;
 }
