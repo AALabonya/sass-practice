@@ -1,7 +1,7 @@
 /* color variable declaration  */
 $header-bgcolor: #ffab73;
 $main-bgcolor: #f8ebe3fd;
-$footer-bgcolor:rgb(204, 88, 11)3;
+$footer-bgcolor:#ffab73;
 
 
 /* browser reset code */
@@ -21,5 +21,5 @@ main{
 }
 
 footer{
-    background-color: $footer-bgcolor;
+    background: $footer-bgcolor;
 }
