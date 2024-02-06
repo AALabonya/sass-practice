@@ -1,35 +1,37 @@
 /* color variable declaration  */
 $header-bgcolor: #ffab73;
 $main-bgcolor: #f8ebe3fd;
-$footer-bgcolor:#ffab73;
+$footer-bgcolor: #ffab73;
 
 
 $para-fontsize: 16px;
 
 /* browser reset code */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: $header-bgcolor;
 }
 
-nav{
+nav {
     margin-top: 15px;
-    ul{
+
+    ul {
         list-style-type: none;
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+        }
     }
 }
 
-nav ul li{
-    display: inline-block;
-    margin: 0 15px;
-}
-nav ul li a{
+nav ul li a {
     display: inline-block;
     color: black;
     text-decoration: none;
@@ -37,18 +39,21 @@ nav ul li a{
     padding: 10px;
     border-radius: 5px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: white;
     background: grey;
 }
 
 
-main{
+main {
     background: $main-bgcolor;
 }
-#about p{
+
+#about p {
     font-size: $para-fontsize;
 }
-footer{
+
+footer {
     background: $footer-bgcolor;
 }
