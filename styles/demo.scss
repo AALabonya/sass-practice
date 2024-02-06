@@ -25,11 +25,11 @@ header {
 }
 
 #about p{
-    @include para-style;
+    @include para-style(20px, left);
    
 }
 #education p{
-    @include para-style;
+    @include para-style(12px, justify);
 }
 nav {
     margin-top: 15px;
@@ -58,10 +58,6 @@ nav {
 
 main {
     background: $main-bgcolor;
-}
-
-#about p {
-    font-size: $para-fontsize;
 }
 
 footer {

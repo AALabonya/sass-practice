@@ -11,13 +11,13 @@ header {
 }
 
 #about p {
-  font-size: 16px;
-  text-align: justify;
+  font-size: 20px;
+  text-align: left;
   margin: 15px 0;
 }
 
 #education p {
-  font-size: 16px;
+  font-size: 12px;
   text-align: justify;
   margin: 15px 0;
 }
@@ -47,10 +47,6 @@ nav ul li a:hover {
 
 main {
   background: rgba(248, 235, 227, 0.9921568627);
-}
-
-#about p {
-  font-size: 16px;
 }
 
 footer {
