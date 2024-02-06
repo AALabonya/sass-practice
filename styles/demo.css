@@ -29,11 +29,6 @@ nav ul li a {
   border-radius: 5px;
 }
 
-nav ul li a:hover {
-  color: white;
-  background: grey;
-}
-
 main {
   background: rgba(248, 235, 227, 0.9921568627);
 }
