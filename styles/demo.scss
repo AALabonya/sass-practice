@@ -1,7 +1,14 @@
+/* color variable declaration  */
+$header-bgcolor: #ffab73;
+
 /* browser reset code */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    background-color: $header-bgcolor;
 }
