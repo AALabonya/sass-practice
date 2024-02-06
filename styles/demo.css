@@ -10,6 +10,10 @@ header {
   background-color: #ffab73;
 }
 
+nav {
+  margin-top: 15px;
+}
+
 main {
   background: rgba(248, 235, 227, 0.9921568627);
 }
