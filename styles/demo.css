@@ -18,6 +18,10 @@ nav ul {
   list-style-type: none;
 }
 
+nav ul li {
+  display: inline-block;
+}
+
 main {
   background: rgba(248, 235, 227, 0.9921568627);
 }
