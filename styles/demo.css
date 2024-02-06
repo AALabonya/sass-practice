@@ -28,6 +28,7 @@ nav ul li a {
   text-decoration: none;
   transition: 0.4s;
   padding: 10px;
+  border-radius: 5px;
 }
 
 main {
