@@ -21,11 +21,15 @@ header {
 @mixin para-style{
     font-size: 16px;
     text-align: justify;
+    margin: 15px 0;
 }
 
 #about p{
     @include para-style;
-    margin: 10px 0;
+   
+}
+#education p{
+    @include para-style;
 }
 nav {
     margin-top: 15px;
