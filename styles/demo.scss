@@ -18,6 +18,10 @@ header {
     background-color: $header-bgcolor;
 }
 
+@mixin para-style{
+    font-size: 16px;
+    text-align: justify;
+}
 nav {
     margin-top: 15px;
 
