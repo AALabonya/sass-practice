@@ -18,9 +18,9 @@ header {
     background-color: $header-bgcolor;
 }
 
-@mixin para-style{
-    font-size: 16px;
-    text-align: justify;
+@mixin para-style($size, $style){
+    font-size: $size;
+    text-align: $style;
     margin: 15px 0;
 }
 
