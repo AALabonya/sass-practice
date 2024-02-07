@@ -113,6 +113,11 @@ main {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.row{
+    clear: both;
+    content: "";
+    display: table;
+}
 footer {
     background: $footer-bgcolor;
 }

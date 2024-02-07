@@ -122,6 +122,12 @@ main {
   width: 100%;
 }
 
+.row {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 footer {
   background: #ffab73;
 }/*# sourceMappingURL=demo.css.map */
