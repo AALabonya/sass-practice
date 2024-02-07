@@ -82,6 +82,7 @@ nav {
                 transition: 0.4s;
                 padding: 10px;
                 border-radius: 5px;
+                @include setFontSize(medium)
             }
             a:hover {
                 color: white;
