@@ -39,6 +39,10 @@ header {
     background-color: #ffab73
 }
 
+.btn-learn{
+    @extend .btn;
+}
+
 #about p{
     @include para-style(20px, left);
    

@@ -10,7 +10,7 @@ header {
   background-color: #ffab73;
 }
 
-.btn, .btn-download {
+.btn, .btn-learn, .btn-download {
   border: none;
   padding: 10px 20px;
   text-align: center;
