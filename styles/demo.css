@@ -24,6 +24,10 @@ header {
   background-color: #ffab73;
 }
 
+.btn-learn {
+  background-color: brown;
+}
+
 #about p {
   font-size: 20px;
   text-align: left;
