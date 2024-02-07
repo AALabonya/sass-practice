@@ -16,6 +16,12 @@ header {
   text-align: center;
   font-size: 14px;
   cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.btn-download {
+  background-color: #ffab73;
 }
 
 #about p {
