@@ -23,6 +23,8 @@ header {
         font-size: 10px;
     }@else if $value == medium{
         font-size: 20px;
+    }@else if $value == large{
+        font-size: 25px;
     }
 }
 
