@@ -24,6 +24,12 @@ header {
     margin: 15px 0;
 }
 
+.btn{
+    border: none;
+    padding: 10px 20px;
+}
+
+
 #about p{
     @include para-style(20px, left);
    
