@@ -32,6 +32,9 @@ header {
     cursor: pointer;
 }
 
+.btn-download{
+    @extend .btn;
+}
 
 #about p{
     @include para-style(20px, left);
