@@ -70,6 +70,10 @@ main {
   background: rgba(248, 235, 227, 0.9921568627);
 }
 
+[class*=col-] {
+  float: left;
+}
+
 .col-1 {
   width: 8.33%;
 }
