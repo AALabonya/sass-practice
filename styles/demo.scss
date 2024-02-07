@@ -21,6 +21,8 @@ header {
 @mixin setFontSize($value){
     @if $value == small{
         font-size: 10px;
+    }@else if $value == medium{
+        font-size: 20px;
     }
 }
 
