@@ -18,12 +18,6 @@ header {
     background-color: $header-bgcolor;
 }
 
-@mixin para-style($size, $style){
-    font-size: $size;
-    text-align: $style;
-    margin: 15px 0;
-}
-
 .btn{
     border: none;
     padding: 14px 20px;
@@ -35,7 +29,7 @@ header {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
+//sass @extend inheritance uses
 .btn-download{
     @extend .btn;
     background-color: #ffab73
@@ -46,6 +40,13 @@ header {
     background-color: rgb(233, 135, 135);
 }
 
+//sass mixin and include
+@mixin para-style($size, $style){
+    font-size: $size;
+    text-align: $style;
+    margin: 15px 0;
+}
+ 
 #about p{
     @include para-style(20px, left);
    
