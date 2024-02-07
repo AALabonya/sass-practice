@@ -69,11 +69,20 @@ header {
 
 //@each
 
-@each $color in red, green, blue{
+// @each $color in red, green, blue{
+//     .#{$color}-text {
+//         color: $color;
+//     }
+// }
+//another way of @each list 
+$colors:(color1:red, color2:blue, color3:green);
+
+@each $key, $color in $colors{
     .#{$color}-text {
         color: $color;
     }
 }
+
 
 nav {
     margin-top: 15px;
